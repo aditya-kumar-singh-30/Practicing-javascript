@@ -1,6 +1,4 @@
-function maht(fn,a,b){
-    return fn(a,b);
-}
+const applyOperation = (a,b,c) => a(b,c);
 
 const add = ((a,b)=>a+b);
 const subtract = ((a,b)=>a-b);
